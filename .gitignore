@@ -1,0 +1,23 @@
+# ---- 不公开：品牌定制版（含内部标识） ----
+jy_unlock.py
+
+# ---- 编译产物 ----
+build/
+dist/
+*.spec
+__pycache__/
+*.pyc
+*.pyo
+
+# ---- 逆向分析中间产物 ----
+analysis/
+qml_out/
+
+# ---- 第三方工具文档 ----
+关于rea/
+
+# ---- 可执行文件（用 Release 分发） ----
+*.exe
+
+# ---- 运行日志 ----
+unlock_log.txt
